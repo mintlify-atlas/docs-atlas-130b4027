@@ -1,0 +1,175 @@
+{
+  "projectType": "saas",
+  "projectName": "Code Canvas Complete",
+  "projectDescription": "A browser-based full-featured IDE with an integrated AI assistant, multi-language code execution, WebContainers terminal, Arduino/hardware support, 3D/CAD editing, Git integration, and project sharing — all without downloads or setup.",
+  "theme": "palm",
+  "primaryColor": "#4595db",
+  "lightColor": "#5ebf9e",
+  "darkColor": "#0494dc",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "local-development"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/code-editor",
+              "features/ai-assistant",
+              "features/terminal",
+              "features/preview",
+              "features/git-integration",
+              "features/project-management"
+            ]
+          },
+          {
+            "group": "Specialized Editors",
+            "pages": [
+              "features/arduino",
+              "features/scratch",
+              "features/3d-cad-editor",
+              "features/media-editors",
+              "features/office-suite"
+            ]
+          },
+          {
+            "group": "AI Assistant",
+            "pages": [
+              "ai/overview",
+              "ai/tool-actions",
+              "ai/interactive-widgets",
+              "ai/byok-providers"
+            ]
+          },
+          {
+            "group": "Sharing & Collaboration",
+            "pages": [
+              "sharing/publish-project",
+              "sharing/subdomains",
+              "sharing/collaboration"
+            ]
+          },
+          {
+            "group": "Deployment",
+            "pages": [
+              "deployment/overview",
+              "deployment/vercel",
+              "deployment/replit",
+              "deployment/koyeb",
+              "deployment/lovable",
+              "deployment/supabase-edge-functions"
+            ]
+          },
+          {
+            "group": "Configuration",
+            "pages": [
+              "configuration/environment-variables",
+              "configuration/shell-executor",
+              "configuration/webcontainers",
+              "configuration/themes"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "AI Tool Actions",
+            "pages": [
+              "api/ai-tool-actions/overview",
+              "api/ai-tool-actions/code-actions",
+              "api/ai-tool-actions/workflow-actions",
+              "api/ai-tool-actions/git-actions",
+              "api/ai-tool-actions/media-actions",
+              "api/ai-tool-actions/project-actions"
+            ]
+          },
+          {
+            "group": "Edge Functions",
+            "pages": [
+              "api/edge-functions/ai-chat",
+              "api/edge-functions/execute-code",
+              "api/edge-functions/generate-image",
+              "api/edge-functions/generate-music",
+              "api/edge-functions/generate-3d",
+              "api/edge-functions/github-proxy"
+            ]
+          },
+          {
+            "group": "Container Runner API",
+            "pages": [
+              "api/container-runner/overview",
+              "api/container-runner/sessions",
+              "api/container-runner/execute"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Multi-language code editor with syntax highlighting for 20+ languages",
+    "AI assistant with 30+ tool actions (analyze, fix, refactor, generate, run)",
+    "Browser-native terminal powered by WebContainers (Node.js in the browser)",
+    "Arduino sketch editor with breadboard simulation and board flashing",
+    "Scratch programming environment with .sb3 import support",
+    "3D/CAD editor with text-to-3D AI generation from 6 providers",
+    "Integrated Git version control with branching and import from GitHub/GitLab/Bitbucket",
+    "Project saving, forking, starring, and subdomain publishing",
+    "BYOK (bring-your-own-key) support for OpenAI, Anthropic, Gemini, DeepSeek, and more",
+    "Media editors for audio, video, images, and Office documents (Word, Excel, PowerPoint)",
+    "Real-time collaboration via Supabase",
+    "Workflow automation with reusable, named run/build/test tasks"
+  ],
+  "publicApiSurface": [
+    "analyze_code",
+    "suggest_fix",
+    "apply_code",
+    "search_codebase",
+    "run_code",
+    "explain_error",
+    "generate_tests",
+    "refactor_code",
+    "create_workflow",
+    "run_workflow",
+    "list_workflows",
+    "install_package",
+    "set_theme",
+    "create_custom_theme",
+    "generate_image",
+    "generate_music",
+    "git_commit",
+    "git_init",
+    "git_create_branch",
+    "git_import",
+    "make_public",
+    "make_private",
+    "get_project_link",
+    "fork_project",
+    "star_project",
+    "view_history",
+    "ask_user",
+    "save_project",
+    "run_project",
+    "run_shell",
+    "POST /sessions (Container Runner API)",
+    "POST /execute (Container Runner API)",
+    "Supabase Edge Function: ai-chat",
+    "Supabase Edge Function: execute-code",
+    "Supabase Edge Function: generate-image",
+    "Supabase Edge Function: generate-music",
+    "Supabase Edge Function: generate-3d",
+    "Supabase Edge Function: github-proxy",
+    "Supabase Edge Function: compile-arduino",
+    "Supabase Edge Function: validate-api-key"
+  ]
+}
